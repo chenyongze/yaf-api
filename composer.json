@@ -1,0 +1,15 @@
+{
+    "name": "yongze/yaf-api",
+    "description": "yaf api jwt restful",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yongze",
+            "email": "sapphire.php@gmail.com"
+        }
+    ]
+}
