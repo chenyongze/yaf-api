@@ -1,4 +1,7 @@
 <?php
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
 /**
  * @name IndexController
  * @author yongze
@@ -15,6 +18,12 @@ class IndexController extends Yaf_Controller_Abstract {
 	public function indexAction($name = "Stranger") {
 		//1. fetch query
 		$get = $this->getRequest()->getQuery("get", "default value");
+
+        // create a log channel
+        $log = new Logger('name');
+        $log->pushHandler(new StreamHandler('./your.log', Logger::WARNING));
+        $log->addWarning('Foo',['aaaaaaa']);
+        $log->addError('Bar');
 
 		//2. fetch model
 		$model = new SampleModel();
