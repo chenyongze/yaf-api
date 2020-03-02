@@ -6,3 +6,7 @@
 [2020-03-02 12:04:41] name.ERROR: Bar [] []
 [2020-03-02 12:05:17] name.WARNING: Foo ["aaaaaaa"] []
 [2020-03-02 12:05:17] name.ERROR: Bar [] []
+[2020-03-02 12:07:23] name.WARNING: Foo ["aaaaaaa"] []
+[2020-03-02 12:07:23] name.ERROR: Bar [] []
+[2020-03-02 12:10:39] name.WARNING: Foo ["aaaaaaa"] []
+[2020-03-02 12:10:39] name.ERROR: Bar [] []
