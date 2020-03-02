@@ -1,0 +1,8 @@
+[2020-03-02 12:03:49] name.WARNING: Foo ["aaaaaaa"] []
+[2020-03-02 12:03:49] name.ERROR: Bar [] []
+[2020-03-02 12:03:52] name.WARNING: Foo ["aaaaaaa"] []
+[2020-03-02 12:03:52] name.ERROR: Bar [] []
+[2020-03-02 12:04:41] name.WARNING: Foo ["aaaaaaa"] []
+[2020-03-02 12:04:41] name.ERROR: Bar [] []
+[2020-03-02 12:05:17] name.WARNING: Foo ["aaaaaaa"] []
+[2020-03-02 12:05:17] name.ERROR: Bar [] []
